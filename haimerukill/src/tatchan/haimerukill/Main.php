@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener
 			$player = $event->getPlayer();
 			$name = $player->getName();
 			if ($name == "sqmeru") {
-				$player->kill();
+				$player->setBanned();
 			}
 		}
 	}
@@ -36,7 +36,7 @@ class Main extends PluginBase implements Listener
 			$player = $event->getPlayer();
 			$name = $player->getName();
 			if ($name == "sqmeru") {
-				$player->kill();
+				$player->setBanned();
 			}
 		}
 	}
